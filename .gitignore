@@ -1,0 +1,26 @@
+# Build artifacts
+.build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Package manager
+.swiftpm/
+Package.resolved
+
+# IDE
+*.xcodeproj/project.xcworkspace/xcshareddata/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Debug
+*.dSYM.zip
+*.dSYM
