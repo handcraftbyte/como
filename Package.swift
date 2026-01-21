@@ -36,13 +36,7 @@ let package = Package(
 				.product(name: "TreeSitterSwift", package: "tree-sitter-swift"),
 				.product(name: "TreeSitterJSON", package: "tree-sitter-json"),
 			],
-			path: "Sources",
-			resources: [
-				.copy("LanguageService/Resources/typescript.js"),
-				.copy("LanguageService/Resources/tsbridge.js"),
-				.copy("LanguageService/Resources/lib.es2015.d.ts"),
-				.copy("LanguageService/Resources/json-languageservice.js"),
-			]
+			path: "Sources"
 		),
 		.testTarget(
 			name: "ComoTests",
